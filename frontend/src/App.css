@@ -1,0 +1,16 @@
+.App {
+    display: flex;
+    padding: 60px;
+}
+.app>main{
+    margin-left: 35px;
+}
+main{
+    flex: 1;
+    margin-left: 40px;
+}
+@media(max-width: 1000px){
+    .App{
+        flex-direction: column;
+    }
+}

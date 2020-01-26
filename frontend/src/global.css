@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  
+}
+html, #root, body{
+    height: 100%;
+}
+body{
+    background-color: #E5E6F0;
+}
+
+body, input, button {
+    font-family: 'Source Code Pro', monospace;
+}

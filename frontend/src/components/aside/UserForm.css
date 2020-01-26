@@ -1,0 +1,45 @@
+.form{
+    height: 480px;
+    width: 320px;
+    background-color: #ffffff;
+    border: solid #eee;
+    border-radius: 2px;
+    padding: 30px 20px;
+}
+strong {
+    font-size: 21px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ form div label{
+    font-size: 14px;
+    color: rgb(143, 139, 139);
+    font-weight: bold;
+}
+ form div input{
+    border: none !important;
+
+    border-bottom: solid 1px #ddd !important;
+}
+ form  .location{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+
+form  .btn{
+    background-color:   #7d40e7;
+    width: 100%;
+    margin-top: 40px;
+
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+@media(max-width: 720px){
+    form{
+        margin: 0 auto;
+    }
+}
